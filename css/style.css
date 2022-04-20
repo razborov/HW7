@@ -1,0 +1,87 @@
+*,
+*::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 798px;
+  margin: 109px auto 0px;
+  filter: drop-shadow(3.28px -3.774px 14.5px rgba(0, 0, 0, 0.43));
+  background-color: rgba(15, 23, 50, 0.5);
+  display: flow-root;
+}
+body {
+  background-image: url(../images/Layer\ 1.png);
+  position: relative;
+}
+.text {
+  max-width: 653px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  margin: 50px 75px 0px 75px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+h2 {
+  padding: 32px 0px 28px;
+  font-size: 30px;
+}
+p {
+  font-size: 14px;
+}
+.first {
+  padding-bottom: 20px;
+}
+.first__img {
+  display: inline-block;
+  padding-bottom: 168px;
+}
+.last {
+  padding-bottom: 156px;
+}
+.second__img {
+  position: absolute;
+  bottom: 0px;
+  background-image: url(../images/grass.png);
+  background-repeat: repeat-x;
+  height: 132px;
+  width: 100%;
+}
+.sky {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(50%, -50%);
+}
+.sky2 {
+  position: fixed;
+  left: 0;
+  top: 168px;
+  width: 592px;
+  height: 188px;
+  z-index: -1;
+  opacity: 0.5;
+}
+.sky3 {
+  position: fixed;
+  right: 0;
+  top: 329px;
+  width: 592px;
+  height: 188px;
+  z-index: -1;
+  opacity: 0.5;
+}
+.sky4 {
+  position: fixed;
+  left: 244px;
+  top: 376px;
+  width: 213px;
+  height: 141px;
+  z-index: -1;
+  opacity: 0.5;
+}
